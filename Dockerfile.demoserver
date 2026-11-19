@@ -1,0 +1,19 @@
+FROM python:3.10-slim
+
+ENV SHELL=/bin/sh
+ENV PYTHONUNBUFFERED=1
+
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y git-all ninja-build python3 python3-pip \
+    python-is-python3 python-dev-is-python3 awscli build-essential curl wget ffmpeg libsm6 libxext6 && \
+    rm -rf /var/lib/apt/lists/*
+
+COPY . /root/mpilo
+
+WORKDIR /root/mpilo
+
+# Install requirements
+RUN pip install --upgrade pip && pip install -e .
+
+# Run server
+CMD ["python", "scripts/demo_chatbot.py"]

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article and this repository."
+title: "AI Coach: retrieval-augmented conversational agent for HIV information"
+type: software
+version: "1.0.0"
+repository-code: "https://github.com/InstituteforDiseaseModeling/Mpilo_project"
+license: MIT
+authors:
+  - family-names: Harding
+    given-names: Tom
+    affiliation: "ProCogia"
+  - family-names: Brock
+    given-names: Gabriel M.
+    affiliation: "ProCogia"
+  - family-names: Sabab
+    given-names: Shahed A.
+    affiliation: "ProCogia"
+  - family-names: Lundin
+    given-names: Jessica M.
+    affiliation: "Gates Foundation"

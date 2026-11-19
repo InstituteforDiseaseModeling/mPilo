@@ -1,0 +1,31 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+env.local
+*service-account*.json
+google_translate.json
+
+# Data and models (not distributed with the code)
+data/
+models/
+vectorstore/
+gpt4-finetuned-retriever/
+functionary/
+*.pdf
+html_cache.json
+mlruns/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
