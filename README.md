@@ -4,7 +4,7 @@ Mpilo is a conversational agent that gives guidance on HIV prevention, testing, 
 
 ## Project status
 
-This repository is a research code release accompanying article. It is provided as-is and is **not actively maintained or supported**: issues and pull requests may not receive a response.
+This repository is a research code release accompanying a forthcoming article. It is provided as-is and is **not actively maintained or supported**: issues and pull requests may not receive a response.
 
 ## Repository layout
 
