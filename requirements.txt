@@ -14,7 +14,7 @@ openai>=0.27.8
 safetensors>=0.3.0
 beautifulsoup4==4.12.3
 protobuf>=5.29.6,<7
-Pillow==10.2.0
+Pillow==13.0.0
 sagemaker==2.257.2
 lxml==6.1.0
 toml
